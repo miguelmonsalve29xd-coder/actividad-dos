@@ -1,1 +1,41 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0f172a;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    object-fit: cover;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1e293b;
+}
+
+.header-button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #10b981;
+    color: #ffffff;
+    border-radius: 10px;
+}
