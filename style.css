@@ -1,8 +1,14 @@
+body {
+    background-color: #f8fafc;
+}
+
+/*Encabezado*/
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 10px 50px;
+    background-color: white;
 }
 
 .logo {
@@ -39,3 +45,4 @@ header {
     color: #ffffff;
     border-radius: 10px;
 }
+
