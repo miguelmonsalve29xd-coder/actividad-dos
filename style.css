@@ -46,3 +46,48 @@ header {
     border-radius: 10px;
 }
 
+/*Contenido principal*/
+.hero {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 5px 30px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #0f172a;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #334155;
+}
+
+.hero-content a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0f172a;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.hero-image {
+    width: 45%;
+}
+
+.hero-image img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
