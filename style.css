@@ -1,1 +1,141 @@
+body {
+    background-color: #f8fafc;
+}
 
+/*Encabezado*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0f172a;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    object-fit: cover;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1e293b;
+}
+
+.header-button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #10b981;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/*Contenido principal*/
+.hero {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 5px 30px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #0f172a;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #334155;
+}
+
+.hero-content a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0f172a;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.hero-image {
+    width: 45%;
+}
+
+.hero-image img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*cards*/
+.cards {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px 40px;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 600px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    padding: 10px;
+}
+.card-image img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h3 {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.card-content p {
+    color: #64748b;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #94a3b8;
+    text-align: center;
+}
